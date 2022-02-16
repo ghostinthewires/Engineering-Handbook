@@ -2,7 +2,7 @@ This repository contains the handbook template that will outline your general ap
 
 ## How it works
 
-This is a special GitHub pages repo, powered by Jekyll. The main branch is built automatically by GitHub and displayed at XXXX
+This is a special GitHub pages repo, powered by Jekyll. The main branch is built automatically by GitHub and displayed at https://ghostinthewires.github.io/Engineering-Handbook/ (You can also CNAME this to your own domain, like we do at https://engineering.firstport.co.uk/)
 
 If you wish to make changes, create a branch and submit a pull request.
 ## Build & run locally
