@@ -1,0 +1,10 @@
+_site
+Gemfile.lock
+*.sublime*
+.bundle
+.idea
+.jekyll-cache/
+.jekyll-metadata
+npm-debug.log
+vendor
+node_modules

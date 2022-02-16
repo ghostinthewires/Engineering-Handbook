@@ -1,0 +1,47 @@
+<nav id="nav" class="navigation" role="navigation">
+    <ul>
+        <li{% if page.body_class == 'home' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/">Home</a>
+        </li>
+        <li{% if page.body_class == 'home' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/charter.html">Our Charter</a>
+        </li>
+    </ul>
+    <h2 class="gamma">Process</h2>
+    <ul>
+        <li{% if page.body_class == 'process' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/agile.html">Agile & Scrum</a>
+        </li>
+        <li{% if page.body_class == 'process' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/code-reviews.html">Code Reviews</a>
+        </li>
+        <li{% if page.body_class == 'process' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/development-process.html">Development Process</a>
+        </li>
+        <li{% if page.body_class == 'process' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/environments.html">Environments</a>
+        </li>
+        <li{% if page.body_class == 'process' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/project-documentation.html">Project Documentation</a>
+        </li>
+    </ul>
+    <h2 class="gamma">Code</h2>
+    <ul>
+        <li{% if page.body_class == 'code' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/builds.html">Builds</a>
+        </li>
+        <li{% if page.body_class == 'code' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/code-standards.html">Code Standards</a>
+        </li>
+        <li{% if page.body_class == 'code' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/continuous-integration.html">Continuous Integration</a>
+        </li>
+        <li{% if page.body_class == 'code' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/source-control.html">Source Control</a>
+        </li>
+        <li{% if page.body_class == 'code' %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/topics/testing.html">Testing</a>
+        </li>
+    </ul>
+    <a id="close-btn" class="btn" href="#top"><span aria-hidden="true">✖</span><span class="sr-only">Close menu</span></a>
+</nav>

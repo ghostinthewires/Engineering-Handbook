@@ -1,0 +1,22 @@
+<script type="text/javascript"
+  src="https://unpkg.com/mermaid@8.10.2/dist/mermaid.min.js">
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    mermaid.initialize({
+        theme: 'base',
+        themeVariables: {
+            primaryColor: '#575b5d', 
+            secondaryColor: '#ebb702',
+            fontFamily: '"Open-Sans", verdana, arial',
+        },
+        er: {
+            useMaxWidth: false
+        },
+        gantt: {
+            leftPadding: 120
+        }
+    });
+});
+</script>

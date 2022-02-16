@@ -1,0 +1,19 @@
+{% if page.category %}
+<nav>
+  <h4>Other topics in {{ page.category }}:</h4>
+  <ul>
+    {% for p in site.pages %}
+    {% if p.category == page.category %}
+    {% if p.title != page.title %}
+    <li>
+      <a href="{{ site.url }}/topics/{{p.body_class}}.html">{{p.title}}</a>
+    </li>
+    {% endif%}
+    {% endif%}
+    {% endfor %}
+  </ul>
+</nav>
+{% endif %}
+<p role="contentinfo">
+  <small><a href="https://github.com/ghostinthewires/Engineering-Handbook">&copy; Ghostinthewires</a></small>
+</p>
